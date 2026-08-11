@@ -3,13 +3,13 @@ name: Send Discovered API to ApiConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: apps.67b1ca818535348782f05e90.ap1.techzone.ibm.com
+  API_HOST: us-east-b.apiconnect.automation.ibm.com
   # platform_api_prefix is not required to change for ApiConnect on Cloud
-  PLATFORM_API_PREFIX: apim-demo-mgmt-platform-api-tools
-  PROVIDER_ORG: cp4i-demo-org
+  PLATFORM_API_PREFIX: platform-api
+  PROVIDER_ORG: dev3553628
   INSECURE_SKIP_TLS_VERIFY: True
   API_FILES: APIfolder/api-with-examples.yaml
-  #API_FOLDERS: APIfolder,APIfolderTwo
+  API_FOLDERS: APIfolder,APIfolderTwo
 
 jobs:
   run-discovery:
