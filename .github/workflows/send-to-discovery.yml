@@ -8,7 +8,7 @@ env:
   PLATFORM_API_PREFIX: platform-api
   PROVIDER_ORG: dev3553628
   INSECURE_SKIP_TLS_VERIFY: True
-  API_FILES: APIfolder/api-with-examples.yaml
+  API_FILES: APIfolder/api-with-examples.yaml,APIfolderTwo/gmail-api.yaml
   API_FOLDERS: APIfolder,APIfolderTwo
 
 jobs:
