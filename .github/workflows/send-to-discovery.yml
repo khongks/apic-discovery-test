@@ -9,7 +9,7 @@ env:
   PROVIDER_ORG: dev3553628
   INSECURE_SKIP_TLS_VERIFY: True
   # API_FILES: APIfolder/api-with-examples.yaml,APIfolderTwo/gmail-api.yaml
-  API_FOLDERS: APIfolder
+  API_FOLDERS: APIfolder,APIfolderTwo
 
 jobs:
   run-discovery:
